@@ -24,3 +24,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+class BahaHunter
+{
+    public int LoliAmount { get; set; }
+
+}
