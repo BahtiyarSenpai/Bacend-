@@ -25,8 +25,8 @@ app.MapControllers();
 
 app.Run();
 
-class BahaHunter
+class DanickHunter
 {
-    public int LoliAmount { get; set; }
+    public int FurinaAmount { get; set; }
 
 }
