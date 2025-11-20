@@ -1,4 +1,10 @@
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddMvc();
+builder.Services.AddControllersWithViews();
+builder.Services.Add
 
 // Add services to the container.
 
@@ -9,8 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-//djsfe.iosdj;fklajslk
-// Configure the HTTP request pipelin
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -24,9 +29,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-class DanickHunter1
-{
-    public int FurinaAmount { get; set; }
-
-}
